@@ -1,0 +1,19 @@
+.banner{
+  width: 100%;
+  height: auto;
+
+  background: url('../img/bg-banner.png') no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.banner .img-head{
+  border-radius: 50%;
+  width: 1.45rem;
+  height: 1.45rem;
+  margin: 1.46rem .42rem 1.46rem .62rem;
+}
+.banner .name{
+  font-size: .34rem;
+  color: #fff;
+}

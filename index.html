@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="utf-8">
+  <title>学生在线</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="screen-orientation" content="portrait">
+  <meta name="x5-orientation" content="portrait">
+  <meta name="format-detection" content="telephone=yes">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="stylesheet" href="./css/comon/reset.css">
+  <link rel="stylesheet" href="./css/comon/base.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <script>
+      // 动态设置 font-size 自适应屏幕
+      ;(function() {
+        const baseSize = 100
+        const setFontSize = () => {
+          const scale = document.documentElement.clientWidth / 750
+          document.documentElement.style.fontSize = baseSize * Math.min(scale, 0.65) + 'px'
+        }
+        setFontSize()
+        window.onresize = setFontSize
+      })()
+    </script>
+</head>
+<body>
+  <div id="body">
+    <div class="banner">
+        <img class="img-head" src="./img/head.jpg" />
+        <div class="name">李冬梅（家长）</div>
+    </div>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+</html>
