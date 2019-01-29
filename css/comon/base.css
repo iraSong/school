@@ -1,20 +1,14 @@
 body{
-    font-size: 16px;
+  font-size: 16px;
 }
-.container{
-    width: 750px;
-    height: 100px;
-    display: flex;
-    margin: 0 auto;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
+html, body, #body{
+  height: 100%;
+  min-height: 100%;
+  background: #F5F5F5;
 }
-
-.container div{
-    margin: 0 15px;
+.dHide{
+  display: none;
 }
-
 
 
 

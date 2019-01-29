@@ -1,4 +1,9 @@
+
+/**顶部**/
 .banner{
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: auto;
 
@@ -16,4 +21,87 @@
 .banner .name{
   font-size: .34rem;
   color: #fff;
+}
+
+/**主体部分**/
+.main {
+  position: relative;
+  z-index: 1;
+  margin: 3.6rem .32rem 0 .32rem;
+  background: #fff;
+  box-shadow: 0 .05rem .14rem 0 rgba(198,192,192,0.22);
+  border-radius: .08rem;
+}
+.main .title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 0 .52rem;
+
+  height: 1.28rem;
+}
+.main .title .name{
+  font-size: .36rem;
+  color: #000;
+  font-weight: bold;
+}
+.main .title .grade{
+  font-size: .34rem;
+  color: #999;
+}
+
+.main .content{
+  padding: .35rem 0;
+}
+.main .content .item{
+  display: flex;
+  padding: .365rem 0;
+}
+.main .content .item .part{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-size: .28rem;
+  color: #666;
+}
+.main .content .item .part .icon{
+  width: .91rem;
+  height: .91rem;
+}
+.main .content .item .part .time{
+  text-align: center;
+  height: .54rem;
+  width: 1.67rem;
+  background: #F5F5F5;
+  border-radius: .08rem;
+}
+.main .content .item .part .go-shool{
+  color: #333;
+}
+
+/**底部**/
+.bottom{
+  background: #fff;
+  box-shadow: 0 .05rem .14rem 0 rgba(198,192,192,0.22);
+  margin: .32rem;
+
+  display: flex;
+  height: 1.37rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom .item-bottom{
+  padding: 0 0.7rem;
+  display: flex;
+}
+.bottom .item-bottom .icon{
+  width: .5rem;
+  height: .52rem;
+}
+.bottom .item-bottom .txt{
+  margin-left: .28rem;
 }
